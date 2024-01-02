@@ -1,0 +1,16 @@
+[package]
+name = "hydra_dragon_antivirus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+md-5 = "0.10.6"
+sha1 = "0.10.6"
+indicatif = "0.17.7"
+chrono = "0.4.31"
+rayon = "1.8.0"
+num_cpus = "1.16.0"
+
+[[bin]]
+name = "hydra_dragon_antivirus"
+path = "src/main.rs"
